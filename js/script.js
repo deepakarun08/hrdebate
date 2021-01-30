@@ -13,6 +13,16 @@
     });
 
 
+	$(".block-speaker").hover(
+		function(){
+			$(this).find('.hoverText').slideToggle("slow");
+		}
+	)
+		
+	
+
+
+
     // Scroll to
 
     $('a.scroll').smoothScroll({

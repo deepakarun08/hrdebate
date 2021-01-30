@@ -364,7 +364,14 @@ h1.large {
 .block-img {
     height: 350px;
     position: relative;
+	cursor:pointer;
 }
+
+.hoverText{position:absolute; width:100%; height:100%; background:#000000; z-index:10; padding:15px; box-sizing:border-box; display:none;}
+
+
+.block-speaker{position:relative;}
+
 .block-speaker .block-img:after {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,444444+70,444444+100&0+3,0.4+70,1+100 */
     
