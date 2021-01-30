@@ -1041,6 +1041,8 @@ select.error {
     .block-sponsor img {
         width: 100%;
     }
+	
+	
 }
 @media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: portrait) {
     input,
@@ -1298,6 +1300,8 @@ select.error {
     .insta-Feed li a:before {
         content: none;
     }
+	
+	.hero-content .row .text-center .mb-10 img{width:70%;}
 }
 @media only screen and (max-width: 479px) {
     input,
@@ -1408,5 +1412,6 @@ select.error {
     .insta-Feed li a:before {
         content: none;
     }
+	.hero-content .row .text-center .mb-10 img{width:70%;}
 }
 /*End media queries*/
